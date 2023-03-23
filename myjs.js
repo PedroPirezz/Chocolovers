@@ -4,6 +4,12 @@
 //DECLARANDO MEU BANCO DE DADOS
 let bancoDeDados = [
     {
+        user: "admin",
+        pass: "admin",
+        imagem: `<img src="./Padrão.jpg" alt="" class="ftperf">`,
+        prioridade: "MAX"
+    },
+    {
         user: "Pedro",
         pass: "Senhap",
         imagem: `<img src="./Pedro.png" alt="" class="ftperf">`
@@ -487,7 +493,14 @@ else {
             if (testeemail) {
                 if (passcadastrado==bancoDeDados[indice].pass) {
                     if (newpass == confirmnewpass) {
-                        if (testenovousuari) {
+
+                        if(newuser==useratual){
+                        bancoDeDados[indice].user = newuser
+                            bancoDeDados[indice].pass = newpass
+                            listar()
+                        }
+
+                        else if (testenovousuari) {
                             divresposta.innerHTML = ("Nome de Usuario já cadastrado")
                         } else {
 
