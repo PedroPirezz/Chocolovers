@@ -1,0 +1,202 @@
+body{
+    width: 100vw;
+    height: 100vh;
+  
+}
+*{
+    margin: 0
+}
+
+#inf{
+width: 80%;
+height: 37%;
+
+margin-left: 10%;
+}
+#inputs{
+    width: 40%;
+    height: 15%;
+ 
+    margin-left: 5%;
+    margin-top: 17%;
+}
+#infpag2{
+    width: 100%;
+    height: 45%;
+
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  
+}
+#botoespag2{
+  
+    width: 55%;
+    height: 4%;
+    font-size: 1.25vw;
+    position: absolute;
+    left: 45%;
+    top: 35%;
+
+
+}
+.butlist{
+    width: 10%;
+    height: 100%;
+    margin-left: 3.5%;
+    
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#but{
+    position: absolute;
+    width: 15%;
+    height: 3%;
+    
+    top: 92%;
+    z-index: 1;
+    left: 42%;
+}
+.butlist1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ 
+    width: 100%;
+    height: 100%;
+
+}
+.textolista{
+    justify-content: center;
+    text-align: center;
+    font-size: 1.15vw;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.texto{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.25vw;
+
+}
+input{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1vw;
+    text-align: center;
+}
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#inputs{
+    text-align: center;
+    
+
+}
+#pass, #user, #send{
+    width: 35%;
+    height: 15%;
+    font-size: 1.15vw;
+    margin-top: 1%;
+}
+#send
+{width: 10%;height: 23%;}
+
+#bodylogin{
+    background-image: url(./Pagína\ inicial.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#bodylista{
+    background-image: url(./Perfil.png);
+
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#saida{
+
+    width: 100%;
+    height: 55%;
+    display: flex;
+}
+#res1{
+    
+    width: 45%;
+    height: 80%;
+    margin-left: 3.45%;
+}
+#res2{
+ 
+    width: 45%;
+    height: 80%;
+    margin-left: 2.80%;
+}
+#res1, #res2{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 1.5%;
+
+    
+}
+.criar{
+    width: 50%;
+}
+#suprema{
+    text-align: center;
+    position: absolute;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    left: 30%;
+    z-index: 2;
+    width: 40%;
+    
+     
+}
+#res{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    top: 90%;
+    position: absolute;
+    width: 40%;
+    height: 10%;
+    left: 30%;
+    text-align: center;
+    color: rgba(198, 90, 90, 0.895);
+    font-size: 1.5vw;
+    
+}
+#resp{width: 40%;
+    height: 10%;
+    
+      margin-left: 5%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center ;
+    color: rgba(198, 90, 90, 0.895);
+   
+    font-size: 1.35vw
+    }
+    img{
+        width: 60%;
+        height: 90%;
+        margin-left:2%;
+    }
+    #respag2{
+        text-align: center;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 1.5vw;
+        position: absolute;
+        top: 80%;
+        left: 35%;
+        width: 30%;
+        height: 10%;
+        z-index: 1;
+        color: rgba(198, 90, 90, 0.895);
+        
+
+        
+        
+    }
+    #nomelogado{
+        position: absolute;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-align: center;
+        width: 7%;
+        height: 5%;
+        left: 90.95%;
+        top: 16%;
+    }
+    .ftperf{
+        width: 50%;
+        height: 80%;
+    }
